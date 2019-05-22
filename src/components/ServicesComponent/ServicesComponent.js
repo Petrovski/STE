@@ -10,9 +10,9 @@ export const ServicesComponent = (props) =>{
         <div className="section-heading text-center">
           <h2 className="unmatched-services">Unmatched Services</h2>
           <hr id="services-hr" />
-          <p className="text-muted">
+          {/* <p className="text-muted">
             Check out what you can do with this app theme!
-          </p>
+          </p> */}
         </div>
         <div className="row">
           {/* <div className="col-lg-4 my-auto">

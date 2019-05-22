@@ -10,10 +10,10 @@ import './style.css';
             <h2 className="section-heading">
               About Us Component
             </h2>
-            <p>
+            {/* <p>
               Our app is available on any mobile device! Download now to get
               started!
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
