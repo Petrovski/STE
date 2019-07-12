@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Star-Tool-Engineering/static/css/main.ce51077f.chunk.css",
-    "main.js": "/Star-Tool-Engineering/static/js/main.82557c79.chunk.js",
-    "main.js.map": "/Star-Tool-Engineering/static/js/main.82557c79.chunk.js.map",
-    "runtime~main.js": "/Star-Tool-Engineering/static/js/runtime~main.13cefb39.js",
-    "runtime~main.js.map": "/Star-Tool-Engineering/static/js/runtime~main.13cefb39.js.map",
-    "static/css/2.babb9cca.chunk.css": "/Star-Tool-Engineering/static/css/2.babb9cca.chunk.css",
-    "static/js/2.c19aa65a.chunk.js": "/Star-Tool-Engineering/static/js/2.c19aa65a.chunk.js",
-    "static/js/2.c19aa65a.chunk.js.map": "/Star-Tool-Engineering/static/js/2.c19aa65a.chunk.js.map",
-    "index.html": "/Star-Tool-Engineering/index.html",
-    "precache-manifest.96734d9f29fb51eab71e3ffad88ba448.js": "/Star-Tool-Engineering/precache-manifest.96734d9f29fb51eab71e3ffad88ba448.js",
-    "service-worker.js": "/Star-Tool-Engineering/service-worker.js",
-    "static/css/2.babb9cca.chunk.css.map": "/Star-Tool-Engineering/static/css/2.babb9cca.chunk.css.map",
-    "static/css/main.ce51077f.chunk.css.map": "/Star-Tool-Engineering/static/css/main.ce51077f.chunk.css.map",
-    "static/media/simple-line-icons.css": "/Star-Tool-Engineering/static/media/Simple-Line-Icons.f33df365.eot",
-    "static/media/style.css": "/Star-Tool-Engineering/static/media/cnc-machine.7cbc0293.jpg",
-    "static/media/font-awesome.css": "/Star-Tool-Engineering/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/device-mockups.css": "/Star-Tool-Engineering/static/media/silver.845604f7.png"
+    "main.css": "/STE/static/css/main.30e3f413.chunk.css",
+    "main.js": "/STE/static/js/main.801fb1e0.chunk.js",
+    "main.js.map": "/STE/static/js/main.801fb1e0.chunk.js.map",
+    "runtime~main.js": "/STE/static/js/runtime~main.6f2d10a0.js",
+    "runtime~main.js.map": "/STE/static/js/runtime~main.6f2d10a0.js.map",
+    "static/css/2.b70cd6e6.chunk.css": "/STE/static/css/2.b70cd6e6.chunk.css",
+    "static/js/2.c19aa65a.chunk.js": "/STE/static/js/2.c19aa65a.chunk.js",
+    "static/js/2.c19aa65a.chunk.js.map": "/STE/static/js/2.c19aa65a.chunk.js.map",
+    "index.html": "/STE/index.html",
+    "precache-manifest.8c424b2145cd1a7329ad8b9130be289c.js": "/STE/precache-manifest.8c424b2145cd1a7329ad8b9130be289c.js",
+    "service-worker.js": "/STE/service-worker.js",
+    "static/css/2.b70cd6e6.chunk.css.map": "/STE/static/css/2.b70cd6e6.chunk.css.map",
+    "static/css/main.30e3f413.chunk.css.map": "/STE/static/css/main.30e3f413.chunk.css.map",
+    "static/media/simple-line-icons.css": "/STE/static/media/Simple-Line-Icons.f33df365.eot",
+    "static/media/style.css": "/STE/static/media/cnc-machine.7cbc0293.jpg",
+    "static/media/font-awesome.css": "/STE/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/device-mockups.css": "/STE/static/media/silver.845604f7.png"
   }
 }
