@@ -1,20 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ClientsCarousel from './ClientsCarousel';
 import './style.css';
 
  export const AppDownloadComponent = (props) => {
   return (
-    <section className="download text-center " id="download">
+    <section className="download text-center " id="about">
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">
-              About Us Component
+            <h2 className="section-heading about-us">
+              About Us
             </h2>
-            {/* <p>
-              Our app is available on any mobile device! Download now to get
-              started!
-            </p> */}
+            <p>
+              <span>Star Tool Engineering</span> is a manufacturing company specializing in 
+            </p>
           </div>
+        </div>
+        <div className="row">
+          <ClientsCarousel />
         </div>
       </div>
     </section>

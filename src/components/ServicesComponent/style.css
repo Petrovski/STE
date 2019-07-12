@@ -12,7 +12,6 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-    max-width: 325px;
     margin: 0 auto;
   }
 
@@ -26,81 +25,94 @@ section.features .device-container {
       } 
     }
 
+#features {
+  background: rgb(238, 236, 236);
+}
+
 section.features .feature-item {
+    display: block;
+    -moz-box-shadow:    inset 0 0 300px #000000;
+    -webkit-box-shadow: inset 0 0 300px #000000;
+    box-shadow:         inset 0 0 300px #000000;
+    z-index: 0;
+    transition: box-shadow .4s;
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center; 
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  section.features .feature-item:hover {
+    -moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 50px #000000;
+    cursor: pointer;
+    /* animation: shadow-pulse 2s infinite; */
   }
   
 section.features .feature-item h3 {
-    font-size: 40px; 
-  }
-    
-section.features .feature-item i {
-    font-size: 80px;
-    display: block;
-    margin-bottom: 15px;
-    background: -webkit-linear-gradient(to left, #000000, #249fdc);
-    background: linear-gradient(to left, #000000, #249fdc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-  }
-
-#services-hr {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    font-size: 70px;
+    text-shadow: -1px 3px 10px #000000;
+    margin: 50px 0px 50px 0px;
   }
   
   .services-h3 {
-    /* color: white; */
-  }
-
-  #services-text-id {
-    filter: brightness(100%);
-    /* color: white; */
+    color: white;
+    font-family: 'Muli';
   }
 
   .services-info-text {
-    /* color: white; */
+    visibility: hidden;
+    color: white;
+    margin: 20px;
+    text-indent: -200px;
+    
   }
 
   .unmatched-services {
-    font-size: 4rem;
+    font-size: 5rem;
+    text-shadow: 1px 1px 3px black;
+    font-weight: 400;
   }
 
   .col-lg-6 {
-    transition: .7s;
-    -webkit-transition: .7s;
-    /* padding: 30px; */
+    transition: .3s;
+    -webkit-transition: .3s;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .col-lg-6:hover {
-    /* background: red; */
-    transform: scale(1.2);
+    transform: scale(1.07);
   }
 
   #cnc-machining-box {
-    filter: brightness(30%);
     background-size: cover;
-    background-image: url('https://qph.fs.quoracdn.net/main-qimg-3df6a1473b7a1e8137c7972be68801e8');
+    background-image: url('https://inteng-storage.s3.amazonaws.com/images/sizes/cnc_machine_best_resize_md.jpg');
   }
 
   #milling-box {
-    filter: brightness(30%);
     background-size: cover;
-    background-image: url('https://qph.fs.quoracdn.net/main-qimg-3df6a1473b7a1e8137c7972be68801e8');
+    background-image: url('https://i.all3dp.com/wp-content/uploads/2019/01/10153218/a-sweet-cut-into-metal-secotoolscom-190110.jpg');
   }
 
   #turning-box {
-    filter: brightness(30%);
     background-size: cover;
-    background-image: url('https://qph.fs.quoracdn.net/main-qimg-3df6a1473b7a1e8137c7972be68801e8');
+    background-image: url('https://mazakfiles.blob.core.windows.net/web-site/image/4072d31d03a54d1eb8cac6b8c8b9b39e/12_HQR_s4_1.jpg');
   }
 
   #prototype-box {
-    filter: brightness(30%);
     background-size: cover;
-    background-image: url('https://qph.fs.quoracdn.net/main-qimg-3df6a1473b7a1e8137c7972be68801e8');
+    background-image: url('https://www.waykenrm.com/wp-content/uploads/2018/07/01-feature.jpg');
   }
-  
+
+  /* @keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgb(32, 105, 138);
+     }
+     100% {
+          box-shadow: 0 0 0 8px rgba(23, 139, 193, 0);
+     }
+} */

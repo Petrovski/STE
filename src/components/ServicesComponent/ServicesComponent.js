@@ -1,75 +1,72 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Modal from './Modal/Modal';
+import useModal from './Modal/useModal';
 import './style.css';
 import 'simple-line-icons/css/simple-line-icons.css';
-// import demoScreen1 from '../../demo-screen-1.jpg';
 
-export const ServicesComponent = (props) =>{
+export const ServicesComponent = (props) => {
+
+  const [hoveredOne, setHoveredOne] = useState(false);
+  const [hoveredTwo, setHoveredTwo] = useState(false);
+  const [hoveredThree, setHoveredThree] = useState(false);
+  const [hoveredFour, setHoveredFour] = useState(false);
+  const toggleHoverOne = () => setHoveredOne(!hoveredOne);
+  const toggleHoverTwo = () => setHoveredTwo(!hoveredTwo);
+  const toggleHoverThree = () => setHoveredThree(!hoveredThree);
+  const toggleHoverFour = () => setHoveredFour(!hoveredFour);
+
+  const {isShowing, toggle} = useModal();
+
+
   return (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
           <h2 className="unmatched-services">Unmatched Services</h2>
-          <hr id="services-hr" />
-          {/* <p className="text-muted">
-            Check out what you can do with this app theme!
-          </p> */}
+          <p className="">
+            Please see below for our primary services offered. We offer much more than this.
+          </p>
         </div>
         <div className="row">
-          {/* <div className="col-lg-4 my-auto">
-          <div className="device-container">
-            <div className="device-mockup iphone6_plus portrait white">
-              <div className="device">
-                <div className="screen">
-                  <img src={demoScreen1} className="img-fluid" alt="" />
-                </div>
-                <div className="button">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-          <div className="col-lg-10 my-auto">
+          <div className="col-lg-12 my-auto">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-lg-6" id="cnc-machining-box">
-                  <div className="feature-item">
-                    <i className="icon-screen-smartphone text-primary" />
+                <div className="col-lg-6">
+                  <div className="feature-item" id="cnc-machining-box" onClick={toggle} onMouseEnter={toggleHoverOne} onMouseLeave={toggleHoverOne}>
                     <h3 className="services-h3">CNC</h3>
                     <p className="services-info-text" id="services-text-id">
-                      -- CNC text here --
+                      Learn More
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="feature-item" id="milling-box">
-                    <i className="icon-camera text-primary" />
+                  <div className="feature-item" id="milling-box" onClick={toggle} onMouseEnter={toggleHoverTwo} onMouseLeave={toggleHoverTwo}>
                     <h3 className="services-h3">Milling</h3>
                     <p className="services-info-text" id="services-text-id">
-                      -- Milling text here --
+                      Learn More
                     </p>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-lg-6">
-                  <div className="feature-item" id="turning-box">
-                    <i className="icon-present text-primary" />
+                  <div className="feature-item" id="turning-box" onClick={toggle} onMouseEnter={toggleHoverThree} onMouseLeave={toggleHoverThree}>
                     <h3 className="services-h3">Turning</h3>
                     <p className="services-info-text" id="services-text-id">
-                      -- Turning Machining text here --
+                      Learn More
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="feature-item" id="prototype-box">
-                    <i className="icon-lock-open text-primary" />
+                  <div className="feature-item" id="prototype-box" onClick={toggle} onMouseEnter={toggleHoverFour} onMouseLeave={toggleHoverFour}>
                     <h3 className="services-h3">Prototype</h3>
                     <p className="services-info-text" id="services-text-id">
-                      -- Protoype text here --
+                      Learn More
                     </p>
                   </div>
                 </div>
               </div>
+              <Modal isShowing={isShowing} hide={toggle} />
             </div>
           </div>
         </div>
