@@ -1,0 +1,61 @@
+  section.download {
+    position: relative;
+    padding: 150px 0;
+  }
+
+  section.download h2 {
+    font-size: 50px;
+    margin-top: 0; 
+  }
+
+  section.download .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; 
+  }
+    
+  section.download .badges .badge-link:last-child {
+    margin-bottom: 0; 
+  }
+    
+  section.download .badges .badge-link img {
+    height: 60px; 
+  }
+
+  .about-us {
+    font-size: 5rem;
+    text-shadow: 1px 1px 3px black;
+    font-weight: 400;
+  }
+    
+  @media (min-width: 768px) {
+      section.download .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0; 
+        } 
+      }
+      
+  @media (min-width: 768px) {
+    section.download h2 {
+      font-size: 70px; 
+      } 
+    }
+
+
+/* Carousel */
+
+div.carousel.carousel-slider {
+  margin-top: 100px;
+}
+
+.slide img {
+  height: 120px;
+}
+
+.carousel .slide {
+  background: transparent;
+}
+
+.carousel .control-dots {
+  position: relative;
+  margin: 40px 0px 0px 0px;
+}
