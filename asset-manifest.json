@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/STE/static/css/main.30e3f413.chunk.css",
-    "main.js": "/STE/static/js/main.801fb1e0.chunk.js",
-    "main.js.map": "/STE/static/js/main.801fb1e0.chunk.js.map",
+    "main.css": "/STE/static/css/main.5bdb6111.chunk.css",
+    "main.js": "/STE/static/js/main.4e34dede.chunk.js",
+    "main.js.map": "/STE/static/js/main.4e34dede.chunk.js.map",
     "runtime~main.js": "/STE/static/js/runtime~main.6f2d10a0.js",
     "runtime~main.js.map": "/STE/static/js/runtime~main.6f2d10a0.js.map",
-    "static/css/2.b70cd6e6.chunk.css": "/STE/static/css/2.b70cd6e6.chunk.css",
-    "static/js/2.c19aa65a.chunk.js": "/STE/static/js/2.c19aa65a.chunk.js",
-    "static/js/2.c19aa65a.chunk.js.map": "/STE/static/js/2.c19aa65a.chunk.js.map",
+    "static/css/2.3a6ba790.chunk.css": "/STE/static/css/2.3a6ba790.chunk.css",
+    "static/js/2.8686b9ce.chunk.js": "/STE/static/js/2.8686b9ce.chunk.js",
+    "static/js/2.8686b9ce.chunk.js.map": "/STE/static/js/2.8686b9ce.chunk.js.map",
     "index.html": "/STE/index.html",
-    "precache-manifest.8c424b2145cd1a7329ad8b9130be289c.js": "/STE/precache-manifest.8c424b2145cd1a7329ad8b9130be289c.js",
+    "precache-manifest.fbf287f48df0f5f8f7b2ab6910ba5951.js": "/STE/precache-manifest.fbf287f48df0f5f8f7b2ab6910ba5951.js",
     "service-worker.js": "/STE/service-worker.js",
-    "static/css/2.b70cd6e6.chunk.css.map": "/STE/static/css/2.b70cd6e6.chunk.css.map",
-    "static/css/main.30e3f413.chunk.css.map": "/STE/static/css/main.30e3f413.chunk.css.map",
+    "static/css/2.3a6ba790.chunk.css.map": "/STE/static/css/2.3a6ba790.chunk.css.map",
+    "static/css/main.5bdb6111.chunk.css.map": "/STE/static/css/main.5bdb6111.chunk.css.map",
     "static/media/simple-line-icons.css": "/STE/static/media/Simple-Line-Icons.f33df365.eot",
-    "static/media/style.css": "/STE/static/media/cnc-machine.7cbc0293.jpg",
-    "static/media/font-awesome.css": "/STE/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/device-mockups.css": "/STE/static/media/silver.845604f7.png"
+    "static/media/style.css": "/STE/static/media/cnc-machine.7cbc0293.jpg"
   }
 }
